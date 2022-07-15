@@ -30,4 +30,4 @@ tgCrypto
 urllib3
 yt-dlp
 speedtest
-heroku
+heroku3
