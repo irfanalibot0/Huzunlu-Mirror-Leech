@@ -267,7 +267,7 @@ try:
     RSS_CHAT_ID = int(RSS_CHAT_ID)
 except:
     RSS_CHAT_ID = None
-tgBotMaxFileSize = 2097151000
+tgBotMaxFileSize = 4194304000
 try:
     TG_SPLIT_SIZE = getConfig('TG_SPLIT_SIZE')
     if len(TG_SPLIT_SIZE) == 0 or int(TG_SPLIT_SIZE) > tgBotMaxFileSize:
